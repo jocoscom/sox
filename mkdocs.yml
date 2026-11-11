@@ -1,10 +1,11 @@
 # mkdocs.yml
 # Configuración de MkDocs para el sitio de Apuntes Sistemas Operativos en Red
 site_name: Apuntes Sistemas Operativos en Red
-site_url: https://sergio-apuntes.github.io/sox/
-site_author: Sergio Rey Martínez
+site_url: https://jocoscom.github.io/sox/
+repo_url: https://github.com/jocoscom/sox
+repo_name: jocoscom/sox
 
-copyright: Sergio Rey Martínez - SMX - SOX - 2025
+copyright: Enric Costa- 2025
 
 theme:
   name: material
@@ -30,11 +31,9 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - toc.follow
-    - navigation.top              # Muestra el botón para volver al principio
-    - content.code.copy           # Botón de copiar en bloques de código
+    - navigation.top # Muestra el botón para volver al principio
+    - content.code.copy # Botón de copiar en bloques de código
 
-
-  
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -57,47 +56,45 @@ markdown_extensions:
   # Tabs para códigos de dos lenguajes o más
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true  
+      alternate_style: true
 
 plugins:
   - search
   - glightbox
 
-
 nav:
-  - Presentación: 
-    - index.md
+  - Presentación:
+      - index.md
 
   - UD01 Introducción a los Sistemas Operativos de Servidor:
-    - 01_01_introducción.md
-    - 01_02_arquitectura_cliente_servidor.md
-    - 01_03_funciones_SO.md
-    - 01_04_sistemas_operativos_servidor.md
-    - 01_05_recordatorio_red.md
+      - 01_01_introducción.md
+      - 01_02_arquitectura_cliente_servidor.md
+      - 01_03_funciones_SO.md
+      - 01_04_sistemas_operativos_servidor.md
+      - 01_05_recordatorio_red.md
 
   - UD02 Instalación de sistemas operativos de servidor privativos:
-    - 02_01_instalacion_SO_introduccion.md
-    - 02_02_instalacion_windows_server.md
-    - 02_03_config_basica.md
-    - 02_04_documentar_instalacion.md
-    - 02_05_administrar_discos.md
-    - 02_06_dominio.md
-    - 02_07_practica_gns3_mikrotik.md
-
+      - 02_01_instalacion_SO_introduccion.md
+      - 02_02_instalacion_windows_server.md
+      - 02_03_config_basica.md
+      - 02_04_documentar_instalacion.md
+      - 02_05_administrar_discos.md
+      - 02_06_dominio.md
+      - 02_07_practica_gns3_mikrotik.md
 
   - UD03 Administración de usuarios y grupos en Windows Server:
-    - 03_01_objetos_dominios.md
-    - 03_02_usuarios.md
-    - 03_03_grupos.md
-    - 03_04_equipos.md
-    - 03_05_unidades_organizativas.md
-    - 03_06_herramientas_administracion.md
-    - 03_07_perfiles_usuarios.md
+      - 03_01_objetos_dominios.md
+      - 03_02_usuarios.md
+      - 03_03_grupos.md
+      - 03_04_equipos.md
+      - 03_05_unidades_organizativas.md
+      - 03_06_herramientas_administracion.md
+      - 03_07_perfiles_usuarios.md
 
   - UD04 Gestión de recursos compartidos en Windows Server:
-    - 04_01_permisos_derechos.md
-    - 04_02_servidor_archivos.md
-    - 04_03_compartir_impresoras.md
+      - 04_01_permisos_derechos.md
+      - 04_02_servidor_archivos.md
+      - 04_03_compartir_impresoras.md
 
 #   - UD05 Directivas de grupo en Windows Server:
 #     - 05_01_introduccion_directivas.md
@@ -116,7 +113,7 @@ nav:
 #     - 06_07_rsat.md
 #     - 06_08_backups.md
 #     - 06_09_controlador_secundario.md
-#     - 06_10_supervision_monitorizacion.md 
+#     - 06_10_supervision_monitorizacion.md
 #     - 06_11_servicios.md
 #     - 06_12_actualizacion_despliegue.md
 # #    - 06_13_integracion_ubuntu_en_dominio.md
