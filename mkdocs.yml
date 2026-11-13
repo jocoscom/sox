@@ -5,7 +5,7 @@ site_url: https://jocoscom.github.io/sox/
 repo_url: https://github.com/jocoscom/sox
 repo_name: jocoscom/sox
 
-copyright: Enric Costa- 2025
+copyright: Enric Costa git add .- 2025
 
 theme:
   name: material
